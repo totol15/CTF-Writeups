@@ -2,7 +2,7 @@
 
 ### **Challenge Information**
 
-![cursed-archive.png](assets/cursed-archive.png)
+![cursed-archive.png](assets/cursed-archive/cursed-archive.png)
 
 #### **Challenge Files**
 
