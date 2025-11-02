@@ -3,7 +3,7 @@
 ### **Challenge Information**
 
 <p align="center">
-  <img src="assets/atomic-depths/atomic-depths.png" width="420" alt="Screenshot of 'Atomic Depths' challenge card">
+  <img src="assets/atomic-depths/challenge.png" width="420" alt="Screenshot of 'Atomic Depths' challenge card">
 </p>
 
 #### **Challenge Files**
