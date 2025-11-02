@@ -17,7 +17,7 @@ From here, we notice that the bitcoin came from [bc1qhwxk8as02f229t5zymrhrlnkmne
 ![bc1qe to bc1qh](assets/armageddon-chain/1before.png)
 ![bc1q5 to bc1qe](assets/armageddon-chain/2before.png)
 
-The chain continues with more and more addresses that all seem to start with "bc1q" but they don't matter anymore. A google search of the address `bc1q5d8af0crjhlnepjq08muhh55899rf2ktye3sxd` brings up [a press release from the Department of Justice](https://www.justice.gov/usao-ndtx/pr/united-states-files-civil-complaint-northern-district-texas-seeking-forfeiture-over-17), which is shown here:
+The chain continues with more and more addresses that all seem to start with "bc1q" but they don't matter anymore. A Google Search of the address `bc1q5d8af0crjhlnepjq08muhh55899rf2ktye3sxd` brings up [a press release from the Department of Justice](https://www.justice.gov/usao-ndtx/pr/united-states-files-civil-complaint-northern-district-texas-seeking-forfeiture-over-17), which is shown here:
 
 ![The press release from the Department of Justice](assets/armageddon-chain/solution.png)
 
