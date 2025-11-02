@@ -18,7 +18,7 @@ I first opened up Audacity to look at the waveform and the spectrogram of the mp
 
 There are letters in the spectrogram, and they spelled out `DPS LOBOJQ WDIKOU TSHDPE`. From the challenge information, we know that the flag format is NICC{WORD_WORD}, so I tried `NICC{DPS_LOBOJQ_WDIKOU_TSHDPE}.` However, that didn't work.
 
-That told me some sort of cipher must have been done on the words. After trying out multiple combinations of substitution ciphers, I discovered the correct combination, which is to first do the Atbash Cipher, then perform a -3 Caesar shift, which gives me this:
+That told me some sort of cipher must have been done on the words. After trying out multiple combinations of substitution ciphers, I discovered the correct combination, which is to first perform the Atbash cipher, then perform a -3 Caesar shift, which gives me this:
 
 ![Decryption from Cyberchef](assets/atomic-depths/cyberchef.png)
 
