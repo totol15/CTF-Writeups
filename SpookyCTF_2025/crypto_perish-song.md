@@ -69,4 +69,4 @@ flag = flag + "}"
 print(flag)
 ```
 
-The flag is: `NICC{THE_LIVING_ATOMIC_DEPTHS}`
+The flag is: `NICC{GD#C#A#C#D#F#AGFG#AE#AGC#GA#D#A#CFA#CA#F#CEC#DAF}`
