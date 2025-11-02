@@ -2,7 +2,9 @@
 
 ### **Challenge Information**
 
-![cursed-archive.png](assets/cursed-archive/cursed-archive.png)
+<p align="center">
+  <img src="assets/cursed-archive/cursed-archive.png" width="420" alt="Screenshot of 'Cursed-Archive' challenge card">
+</p>
 
 #### **Challenge Files**
 
