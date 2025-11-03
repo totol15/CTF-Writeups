@@ -16,7 +16,7 @@
 
 First, we can zoom in on the picture and try to read the words off of the monument. It isn't in English, but it has English characters, and it says `AUS DANKBARKEIT IN FESTER ZUVERSICHT`.
 
-With a quick Google Search, we can see that this is the Canossasäule, or the Column of Canossa, in Braunschweig, Germany. From [Google Maps](https://www.google.com/maps/place/Column+of+Canossa/@51.8715039,10.5668594,160m/data=!3m1!1e3!4m6!3m5!1s0x47a514c4eb8104df:0xbdfe060a2c5b32!8m2!3d51.8719633!4d10.5662664!16s%2Fg%2F11bywvzf4x?entry=ttu&g_ep=EgoyMDI1MTAyOS4yIKXMDSoASAFQAw%3D%3D), we can see that there is a landmark nearby called Große Harzburg as shown here:
+With a quick Google search, we can see that this is the Canossasäule, or the Column of Canossa, in Braunschweig, Germany. From [Google Maps](https://www.google.com/maps/place/Column+of+Canossa/@51.8715039,10.5668594,160m/data=!3m1!1e3!4m6!3m5!1s0x47a514c4eb8104df:0xbdfe060a2c5b32!8m2!3d51.8719633!4d10.5662664!16s%2Fg%2F11bywvzf4x?entry=ttu&g_ep=EgoyMDI1MTAyOS4yIKXMDSoASAFQAw%3D%3D), we can see that there is a landmark nearby called Große Harzburg as shown here:
 
 <p align="center">
   <img src="assets/escape-route/map.png" width="550" alt="Map">
