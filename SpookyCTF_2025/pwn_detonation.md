@@ -85,7 +85,7 @@ Only one input is taken in the whole program, and that is in the function `accep
 
 We can scroll up a little and see that there are two variables `countdown` and `abort_code`, both being char[8] globals. `countdown` is initialized before `abort_code`, so we can take advantage of buffer overflow here to overwrite `abort_code` as well.
 
-What we can do is that when we are prompted for input, we can put any string without whitespaces from 8 to 15 characters long, and it will overwrite into `abort_code` and make it something else, so `strcmp(abort_code, "SAFE") != 0` becomes true, making the server print the flag. 8 characters work as a NUL terminator "\0" will be added afterwards, which writes into `abort_code`. If you use 16 characters or longer, the NUL terminator isn't in `abort_code` anymore, which may cause `strcmp()` to fail completely and cause undefined behavior. I decided to use "12345678" and this is what happened:
+What we can do is that when we are prompted for input, we can put any string without whitespaces from 8 to 15 characters long, and it will overwrite into `abort_code` and make it something else, so `strcmp(abort_code, "SAFE") != 0` becomes true, making the server print the flag. 8 characters work as a NUL terminator "\0" will be added afterwards, which writes into `abort_code`. If you use 16 characters or longer, the NUL terminator isn't in `abort_code` anymore, which may cause `strcmp()` to fail completely and cause undefined behavior. I decided to use "12345678" and got the flag.
 
 ![successful buffer overflow](assets/detonation/solution.png)
 
