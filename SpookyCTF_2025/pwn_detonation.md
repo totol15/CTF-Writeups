@@ -81,7 +81,7 @@ int main(void){
 
 From the source code, we can see that in `check_override()`, the flag will print if `strcmp(abort_code, "SAFE") != 0`, which basically means `abort_code` doesn't have "SAFE" stored in it. This means we need to figure out how to overwrite `abort_code`.
 
-Only one input is taken in the whole program, and that is in the function `accept_input(void)`. This function does `scanf("%s", countdown);`, which takes our input and overwrites whatever `countdown` originally was. Notice here that the format string here is `"%s"`, which means that this is likely a buffer overflow challenge.
+Only one input is taken in the whole program, and that is in the function `accept_input(void)`. This function does `scanf("%s", countdown);`, which takes our input and overwrites whatever `countdown` originally was. Notice here that the format specifier here is `"%s"`, which means that this is likely a buffer overflow challenge.
 
 We can scroll up a little and see that there are two variables `countdown` and `abort_code`, both being char[8] globals. `countdown` is initialized before `abort_code`, so we can take advantage of buffer overflow here to overwrite `abort_code` as well.
 
