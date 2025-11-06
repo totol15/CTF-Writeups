@@ -4,10 +4,10 @@ p = remote("45.55.60.238", 1337)
 
 flag = ""
 alphabet = "abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ{}!@#$%^&*()_:/;?.,=+-"
-total = 64
+total = 64 #128 hex characters, so 64 bytes/64 characters
 done = False
 
-for i in range(64):
+for i in range(total):
     if done == True:
         break
     current = i + 1
