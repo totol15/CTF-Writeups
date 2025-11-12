@@ -87,7 +87,7 @@ main()
 First, we can connect to the server using netcat. From there, we can press `2` to view the files and notice that there is a file already there, named `secret_pic.png`.
 
 <p align="center">
-  <img src="assets/view-file.png" width="420" alt="Screenshot of the available files">
+  <img src="assets/interaction.png" width="420" alt="Screenshot of the available files">
 </p>
 
 We can then choose `secret_pic.png`, which gives us a very long hex string. Taking a look at the source code, we can see that this is the ciphertext of the bytes of the secret image, which contains the flag, so we just have to decrypt the image to get the flag.
